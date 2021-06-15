@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 import json
 import re
@@ -75,7 +75,11 @@ def get_price(url, min, before=0, after=0):
 file = open("target.json", "r")
 json_load = json.load(file)
 
+# データ取得日時を現在時刻-1Hで行う
+start_time = datetime.now().replace(second=0, microsecond=0) + \
+    timedelta(hours=-1, minutes=-10)
+
 for exchange in json_load:
     currency_list = exchange["currency"]
     for currency in currency_list:
-        get_price(currency["route"] + "/ohlc", 60)
+        get_price(currency["route"] + "/ohlc", 60, start_time.timestamp())
