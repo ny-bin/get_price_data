@@ -1,0 +1,219 @@
+[{
+    "id": 96,
+    "symbol": "ftx",
+    "name": "FTX",
+    "route": "https://api.cryptowat.ch/exchanges/ftx",
+    "active": true,
+    "currency":[		
+        {
+			"id": 62574,
+			"exchange": "ftx",
+			"pair": "bnbusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/ftx/bnbusd"
+		},
+        {
+			"id": 62576,
+			"exchange": "ftx",
+			"pair": "btcusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/ftx/btcusd"
+		},
+        {
+			"id": 62579,
+			"exchange": "ftx",
+			"pair": "ethusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/ftx/ethusd"
+		},
+        {
+			"id": 62582,
+			"exchange": "ftx",
+			"pair": "fttusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/ftx/fttusd"
+		}
+    ]
+},
+{
+    "id": 1,
+    "symbol": "bitfinex",
+    "name": "Bitfinex",
+    "route": "https://api.cryptowat.ch/exchanges/bitfinex",
+    "active": true,
+    "currency":[
+        {
+			"id": 1,
+			"exchange": "bitfinex",
+			"pair": "btcusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitfinex/btcusd"
+		},
+        {
+			"id": 4,
+			"exchange": "bitfinex",
+			"pair": "ethusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitfinex/ethusd"
+		},
+        {
+			"id": 5,
+			"exchange": "bitfinex",
+			"pair": "ethbtc",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitfinex/ethbtc"
+		}
+    ]
+},
+{
+    "id": 4,
+    "symbol": "kraken",
+    "name": "Kraken",
+    "route": "https://api.cryptowat.ch/exchanges/kraken",
+    "active": true,
+    "currency":[
+        {
+			"id": 87,
+			"exchange": "kraken",
+			"pair": "btcusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/kraken/btcusd"
+		},
+        {
+			"id": 95,
+			"exchange": "kraken",
+			"pair": "ethbtc",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/kraken/ethbtc"
+		},
+        {
+			"id": 96,
+			"exchange": "kraken",
+			"pair": "ethusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/kraken/ethusd"
+		}
+    ]
+},
+{
+    "id": 11,
+    "symbol": "bitflyer",
+    "name": "bitFlyer",
+    "route": "https://api.cryptowat.ch/exchanges/bitflyer",
+    "active": true,
+    "currency":[
+        {
+			"id": 215,
+			"exchange": "bitflyer",
+			"pair": "btcjpy",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitflyer/btcjpy"
+		},
+        {
+			"id": 61196,
+			"exchange": "bitflyer",
+			"pair": "ethjpy",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitflyer/ethjpy"
+		},
+        {
+			"id": 427,
+			"exchange": "bitflyer",
+			"pair": "btcusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitflyer/btcusd"
+		},
+        {
+			"id": 409,
+			"exchange": "bitflyer",
+			"pair": "btcfxjpy",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitflyer/btcfxjpy"
+		},
+        {
+			"id": 216,
+			"exchange": "bitflyer",
+			"pair": "ethbtc",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/bitflyer/ethbtc"
+		}
+    ]
+},
+{
+    "id": 27,
+    "symbol": "binance",
+    "name": "Binance",
+    "route": "https://api.cryptowat.ch/exchanges/binance",
+    "active": true,
+    "currency":[
+        {
+			"id": 579,
+			"exchange": "binance",
+			"pair": "btcusdt",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/binance/btcusdt"
+		},
+        {
+			"id": 580,
+			"exchange": "binance",
+			"pair": "ethbtc",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/binance/ethbtc"
+		},
+        {
+			"id": 588,
+			"exchange": "binance",
+			"pair": "ethusdt",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/binance/ethusdt"
+		}
+
+    ]
+},
+{
+    "id": 21,
+    "symbol": "poloniex",
+    "name": "Poloniex",
+    "route": "https://api.cryptowat.ch/exchanges/poloniex",
+    "active": true,
+    "currency":[]
+},
+{
+    "id": 25,
+    "symbol": "bittrex",
+    "name": "Bittrex",
+    "route": "https://api.cryptowat.ch/exchanges/bittrex",
+    "active": true,
+    "currency":[]
+},
+{
+    "id": 10,
+    "symbol": "liquid",
+    "name": "Liquid",
+    "route": "https://api.cryptowat.ch/exchanges/liquid",
+    "active": true,
+    "currency":[
+        {
+			"id": 211,
+			"exchange": "liquid",
+			"pair": "ethbtc",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/liquid/ethbtc"
+		},
+        {
+			"id": 5805,
+			"exchange": "liquid",
+			"pair": "btcusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/liquid/btcusd"
+		},
+        {
+			"id": 5814,
+			"exchange": "liquid",
+			"pair": "ethusd",
+			"active": true,
+			"route": "https://api.cryptowat.ch/markets/liquid/ethusd"
+		}
+    ]
+}
+]
