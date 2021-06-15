@@ -79,7 +79,24 @@ json_load = json.load(file)
 start_time = datetime.now().replace(second=0, microsecond=0) + \
     timedelta(hours=-1, minutes=-10)
 
+end_time = datetime.now().replace(second=0, microsecond=0)
+
+print(str(start_time.timestamp()).replace('.0', ''))
+print(str(end_time.timestamp()).replace('.0', ''))
+
+
 for exchange in json_load:
     currency_list = exchange["currency"]
     for currency in currency_list:
-        get_price(currency["route"] + "/ohlc", 60, start_time.timestamp())
+        get_price(
+            currency["route"] +
+            "/ohlc",
+            60,
+            after=str(
+                start_time.timestamp()).replace(
+                '.0',
+                ''),
+            before=str(
+                end_time.timestamp()).replace(
+                    '.0',
+                ''))
