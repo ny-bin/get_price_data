@@ -25,13 +25,6 @@
 			"pair": "ethusd",
 			"active": true,
 			"route": "https://api.cryptowat.ch/markets/ftx/ethusd"
-		},
-        {
-			"id": 62582,
-			"exchange": "ftx",
-			"pair": "fttusd",
-			"active": true,
-			"route": "https://api.cryptowat.ch/markets/ftx/fttusd"
 		}
     ]
 },
@@ -115,13 +108,6 @@
 			"pair": "ethjpy",
 			"active": true,
 			"route": "https://api.cryptowat.ch/markets/bitflyer/ethjpy"
-		},
-        {
-			"id": 427,
-			"exchange": "bitflyer",
-			"pair": "btcusd",
-			"active": true,
-			"route": "https://api.cryptowat.ch/markets/bitflyer/btcusd"
 		},
         {
 			"id": 409,
