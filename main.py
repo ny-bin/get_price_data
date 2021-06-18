@@ -56,15 +56,18 @@ def get_price(url, min, before=0, after=0):
         markets_name = matches[0]
         exchange_name = matches[1]
         if price is not None:
-            repo = g.get_repo("Ny-uta/crypto_price_data")
-            repo.create_file(
-                f"{markets_name}/{exchange_name}/{price[0]['close_time']}.json",
-                "content_of_file",
-                json.dumps(
-                    price,
-                    indent=2))
-
-        return price
+            try:
+                repo = g.get_repo("Ny-uta/crypto_price_data")
+                repo.create_file(
+                    f"{markets_name}/{exchange_name}/{price[0]['close_time']}.json",
+                    "content_of_file",
+                    json.dumps(
+                        price,
+                        indent=2))
+            except Exception as e:
+                print(e)
+                print(response)
+        return
 
     else:
         print("データが存在しません")
