@@ -77,9 +77,10 @@ json_load = json.load(file)
 
 # データ取得日時を現在時刻-1Hで行う
 start_time = datetime.now().replace(second=0, microsecond=0) + \
-    timedelta(hours=-1, minutes=-10)
+    timedelta(hours=-24, minutes=-10)
 
-end_time = datetime.now().replace(second=0, microsecond=0)
+end_time = datetime.now().replace(second=0, microsecond=0) + \
+    timedelta(hours=0, minutes=+10)
 
 print(str(start_time.timestamp()).replace('.0', ''))
 print(str(end_time.timestamp()).replace('.0', ''))
@@ -100,3 +101,4 @@ for exchange in json_load:
                 end_time.timestamp()).replace(
                     '.0',
                 ''))
+        time.sleep(2)
