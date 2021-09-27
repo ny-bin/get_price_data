@@ -10,3 +10,4 @@ import os
 # load_dotenv(dotenv_path)
 
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN")
+BYBT_ACCESS_TOKEN = os.environ.get("BYBT_ACCESS_TOKEN")
